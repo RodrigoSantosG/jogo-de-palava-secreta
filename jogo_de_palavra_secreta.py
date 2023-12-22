@@ -10,7 +10,7 @@ while True: # o jogo vai ser rodado tudo aqui
 
     numero_de_tentativa += 1
 
-    if len(letra_digitada) < 1: # se caso o jogador digitar mais q 1 letra, vai dar 1 erro e voltar para o inicio
+    if len(letra_digitada) > 1: # se caso o jogador digitar mais q 1 letra, vai dar 1 erro e voltar para o inicio
         print('Digite apenas 1 letra.')
         continue
     
